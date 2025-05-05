@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>مطعمنا الجميل</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>مرحبًا بكم في مطعمنا الجميل</h1>
+    <p>نقدم أشهى الأطباق الشرقية والغربية &copy; 2025</p>
+
+    <h2>قائمة الطعام</h2>
+    <ul>
+        <li>كبسة دجاج</li>
+        <li>مندي لحم</li>
+        <li>بيتزا</li>
+        <li>فلافل</li>
+    </ul>
+
+    <h2>الأسعار</h2>
+    <table border="1">
+        <tr>
+            <th>الطبق</th>
+            <th>السعر</th>
+        </tr>
+        <tr>
+            <td>كبسة دجاج</td>
+            <td>5 دنانير</td>
+        </tr>
+        <tr>
+            <td>بيتزا</td>
+            <td>6 دنانير</td>
+        </tr>
+        <tr>
+            <td>مندي لحم</td>
+            <td>7 دنانير</td>
+        </tr>
+        <tr>
+            <td>فلافل</td>
+            <td>1 دنانير</td>
+        </tr>
+    </table>
+
+    <h2>احجز طاولتك الآن</h2>
+    <form action="contact.php" method="post">
+        <label>الاسم:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label>عدد الأشخاص:</label>
+        <input type="number" name="guests" required><br><br>
+
+        <label>التاريخ:</label>
+        <input type="date" name="date" required><br><br>
+
+        <input type="submit" value="أرسل الحجز">
+    </form>
+
+    <h2>تواصل معنا</h2>
+    <p>
+        تابعنا على
+        <a href="https://instagram.com" target="_blank">إنستغرام</a>
+    </p>
+
+    <img src="images/food.jpg" alt="طبق لذيذ" width="300">
+
+</body>
+</html>
